@@ -2,34 +2,43 @@ import PropTypes from 'prop-types';
 import { GiHumanPyramid } from "react-icons/gi";
 import { FaEye } from "react-icons/fa";
 import { FcLike } from "react-icons/fc";
+import {
+  ProfileCard,
+  StatsList,
+  ProfileAva,
+  ProfileName,
+  ProfileTag,
+  ProfileStatsItem,
+  ProfileStatsLable
+} from "./Profile-style";
 
 export const Profile = ({ username, tag, location, avatar, stats: {followers, views, likes} }) => {
   return (
-    <div>
+    <ProfileCard>
       <div>
-        <img src={avatar} alt={username} />
-        <p>{username}</p>
-        <p>{tag}</p>
+        <ProfileAva src={avatar} alt={username} />
+        <ProfileName>{username}</ProfileName>
+        <ProfileTag>{tag}</ProfileTag>
         <p>{location}</p>
       </div>
-      <ul>
-        <li>
+      <StatsList>
+        <ProfileStatsItem>
           <GiHumanPyramid />
-          <span> Followers: </span>
+          <ProfileStatsLable> Followers: </ProfileStatsLable>
           <span>{followers}</span>
-        </li>
-        <li>
+        </ProfileStatsItem>
+        <ProfileStatsItem>
           <FaEye />
-          <span> Views: </span>
+          <ProfileStatsLable> Views: </ProfileStatsLable>
           <span>{views}</span>
-        </li>
-        <li>
+        </ProfileStatsItem>
+        <ProfileStatsItem>
           <FcLike />
-          <span> Likes: </span>
+          <ProfileStatsLable> Likes: </ProfileStatsLable>
           <span>{likes}</span>
-        </li>
-      </ul>
-    </div>
+        </ProfileStatsItem>
+      </StatsList>
+    </ProfileCard>
   );
 };
 

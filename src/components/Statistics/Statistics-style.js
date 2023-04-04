@@ -7,7 +7,7 @@ export const SectionStatistics = styled.div`
   text-align: center;
   font-size: 20px;
 
-  background-color: #f29898;
+  background-color: #f6f4f4;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 60px -20px,
     rgba(226, 217, 206, 0.3) 0px 20px 40px -30px,
     rgba(0, 37, 64, 0.35) 0px -2px 6px 0px inset;

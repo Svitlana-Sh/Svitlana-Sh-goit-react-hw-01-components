@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileCard = styled.div`
-  width: 320px;
+  width: auto;
   border: 1px solid #efefdd;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 60px -20px,
     rgba(226, 217, 206, 0.3) 0px 20px 40px -30px,

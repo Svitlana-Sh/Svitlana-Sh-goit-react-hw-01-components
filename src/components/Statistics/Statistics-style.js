@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SectionStatistics = styled.div`
   border: 1px solid rgba(123, 94, 94, 0.3);
-  border-radius: 0 30px;
+  border-radius: 15px;
 
   text-align: center;
   font-size: 20px;
@@ -14,6 +14,7 @@ export const SectionStatistics = styled.div`
 
   overflow: hidden;
   min-width: content;
+  margin-top: 15px;
 `;
 
 export const StatisticsList = styled.ul`

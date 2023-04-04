@@ -8,7 +8,7 @@ export const FriendUl = styled.ul`
   width: auto;
   padding: 15px;
   border: 1px solid #f6e8e8;
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px;
   text-align: center;
   font-size: 20px;
   background-color: #f6e8e8;

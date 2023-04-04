@@ -5,12 +5,15 @@ export const Layout = styled.div`
   margin-top: 15px;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   font-size: 40;
   color: #010101;
   margin-left: auto;
   margin-right: auto;
+`;
+
+export const LayoutFirst = styled.div`
+display: block;
 `;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ProfileCard = styled.div`
   width: auto;
@@ -6,7 +6,7 @@ export const ProfileCard = styled.div`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 60px -20px,
     rgba(226, 217, 206, 0.3) 0px 20px 40px -30px,
     rgba(0, 37, 64, 0.35) 0px -2px 6px 0px;
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px;
   text-align: center;
   font-size: 20px;
   background-color: #f6e8e8;
@@ -22,7 +22,7 @@ export const ProfileAva = styled.img`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 60px -20px,
     rgba(234, 218, 218, 0.3) 0px 20px 40px -30px,
     rgba(0, 37, 64, 0.35) 0px -2px 6px 0px;
-  border-radius: 0 0 30px 30px;
+  border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -36,7 +36,7 @@ export const ProfileName = styled.p`
 `;
 
 export const ProfileTag = styled.p`
-color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 `;
 
 export const StatsList = styled.ul`
